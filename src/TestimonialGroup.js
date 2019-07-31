@@ -1,34 +1,34 @@
 import React from 'react';
 
-const TestimonialGroup = () => {
+const TestimonialGroup = (prop) => {
     return (
-        <section className="Testimonials text-center bg-light" id='testimonial'>
+        <section className="Testimonials text-center bg-light" id='testimonial'style={{backgroundImage: `url('${prop.image}')`}} >
         <div className="container">
           <h2 className="heading"><strong>What our partners are saying!</strong></h2>
           <p className="sub-heading"><strong>Available on all tablets &amp; mobile device! Sign up now for free!</strong></p>
-          <div className="row"style={{display: 'flex', alignItems: 'center',justifyContent: 'center',}}>
+          <div className="row">
             <div className="col-lg-4">
               <div className="testimonial-item mx-auto mb-5 mb-lg-0">
-                <img className="img-fluid fa-twitter-square mb-3"  src={require("./Apple.png")} alt=""/>
-                <br/><a className="badge-apple" href="#"><img src={require("./iosstore.svg")}/></a>
-                <h5 style= {{color:'white', webkitTextStrokeWidth:'0.5px', webkitTextStrokeColor:'black', fontSize: '20pt'}}>IOS Games</h5>
-                <p className="caption" style={{color:'black', webkitTextStrokeWidth:'1.0px', webkitTextStrokeColor:'white', fontSize: '15pt'}}><strong>"Free World Gaming is the ultimate online gaming platform!"</strong></p>
+                <img className="img-fluid fa-twitter-square mb-3"  src={"img/Apple.png"} alt=""/>
+                <br/><a className="badge-apple" href="#"><img src={"img/iosstore.svg"}/></a>
+                <h5 className="title">IOS Games</h5>
+                <p className="caption"><strong>"Free World Gaming is the ultimate online gaming platform!"</strong></p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="testimonial-item mx-auto mb-5 mb-lg-0">
                 <img className="img-fluid rounded-circle mb-3" src={'img/Android.png'} alt=""/>
-                <a className="badge-google" href="#"><img src={require("./googlebadge.png")}/></a>
-                <h5 style={{ color:'white', webkitTextStrokeWidth:'0.5px', webkitTextStrokeColor:'black', fontSize:'20pt'}}>Google Play</h5>
-                <p className="caption" style={{color:'black', webkitTextStrokeWidth:'1.0px', webkitTextStrokeColor:'white',fontSize: '15pt'}}><strong>"The scope of competetive gaming has never seen such transcedance as that of Free World Gaming."</strong></p>
+                <br/><a className="badge-google" href="#"><img src={"img/googlebadge.png"}/></a>
+                <h5 className="title">Google Play</h5>
+                <p className="caption"><strong>"The scope of competetive gaming has never seen such transcedance as that of Free World Gaming."</strong></p>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="testimonial-item mx-auto mb-5 mb-lg-0">
-                <img className="img-fluid"  src={require("./galaxy.png")} alt=""/>
-                <a className="badge-samsung" href="#"><img src={require("./samsung.png")}/></a>
-                <h5 style={{color:'white', webkitTextStrokeWidth:'1.0px', webkitTextStrokeColor:'black', fontSize: '20pt'}}>Galaxy Store</h5>
-                <p className="caption" style={{color:'black', webkitTextStrokeWidth:'1.0px', webkitTextStrokeColor:'white', fontSize:'15pt'}}><strong>"The first site/app to come to mind upon recommendation to online gamers."</strong></p>
+                <img className="img-fluid fa-twitter-square mb-3"  src={"img/galaxy.png"} alt=""/>
+                <br/><a className="badge-samsung" href="#"><img src={"img/samsung.png"}/></a>
+                <h5 className="title" >Galaxy Store</h5>
+                <p className="caption"><strong>"The first site/app to come to mind upon recommendation to online gamers."</strong></p>
               </div>
             </div>
           </div>

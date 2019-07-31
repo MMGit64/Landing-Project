@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Button from './Button';
 
 
-const NavBar2 = (prop) => {
+const NavBar4 = (prop) => {
 
     const [register, setRegistered] = useState(false);
     const registerUser = () => {
@@ -27,13 +27,7 @@ const NavBar2 = (prop) => {
       <div className="nav-item">
       <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#register">Register</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#features">Features</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#testimonial">Testimonials</a>
+            <a className="nav-link js-scroll-trigger" href="#query">Query</a>
           </li>         
            <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -53,4 +47,4 @@ const NavBar2 = (prop) => {
     )
 }
 
-export default NavBar2;
+export default NavBar4;

@@ -1,12 +1,14 @@
 import React from 'react';
-import NavBar2 from './NavBar2';
+import NavBar3 from './NavBar3';
 import JigSaw from './JigSaw';
 import References from './References';
+import Information from './Information';
 
 const About = () => {
     return(
         <div className="About">
-            <NavBar2 image="img/gameCode.gif"/>
+            <NavBar3 image="img/gameCode.gif"/>
+            <Information img="img/about.jpg"/>
             <JigSaw 
             image="img/navbar.jpg"
             order={2}

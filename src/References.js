@@ -7,9 +7,9 @@ export const References = (prop) => {
     return(
         <div className="References navbar-light bg-light static-top"style={{backgroundImage: `url('${prop.image}')` }} id="contact">
           <div className="ref-links container">
-            <Link className="link" to="/contacts">FAQ</Link>
-            <Link className="link" to="/termsOfUse">Terms Of Use</Link>
-            <Link className="link" to="/privacyPolicy">Privacy Policy</Link>
+            <Link className="link" to="/faq">FAQ</Link>
+            <Link className="link" to="/termsofuse">Terms Of Use</Link>
+            <Link className="link" to="/privacypolicy">Privacy Policy</Link>
             <i className='icon fab fa-facebook'></i>
             <i className='icon fab fa-twitter-square'></i>
             <i className='icon fab fa-instagram'></i>
@@ -23,9 +23,9 @@ export const References = (prop) => {
             </div>
             <div className="row-align-start">
               <div className="col images">
-                <img src={require("./HeroImage3.jpg")}width="105" height ="75"/>
-                <img src={require("./HeroImage.gif")}width="105" height ="75"/>
-                <img src={require("./HeroImage2.jpg")}width="105" height ="75"/>
+                <img src={"img/HeroImage3.jpg"} width="40" height ="25"/>
+                <img src={"img/HeroImage.gif"} width="40" height ="25"/>
+                <img src={"img/HeroImage2.jpg"} width="40" height ="25"/>
               </div>
             </div>
           </div>

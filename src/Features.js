@@ -16,7 +16,7 @@ const Features = (prop) => {
             <div className="device-mockup iphone6_plus portrait white">
               <div className="device">
                 <div className="screen">
-                  <img src={require("./Joystick.png")} width='500'/>
+                  <img src={"img/Joystick.png"} width='500'/>
                 </div>
                 <div className="button">
                 </div>

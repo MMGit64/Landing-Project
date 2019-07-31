@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Button from './Button';
 
 
-const NavBar2 = (prop) => {
+const NBprivacy = (prop) => {
 
     const [register, setRegistered] = useState(false);
     const registerUser = () => {
@@ -25,20 +25,11 @@ const NavBar2 = (prop) => {
   <div className="collapse navbar-collapse show" id="navbarResponsive">
     <div className="navbar-nav ml-auto">
       <div className="nav-item">
-      <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#register">Register</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#features">Features</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#testimonial">Testimonials</a>
-          </li>         
-           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+        <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#">Back to Top</a>
+            </li>         
+            </ul>
           <Link  classNameName="link js-scroll-trigger" to="/">Home</Link>
           <Link classNameName="link js-scroll-trigger" to="/about">About</Link>
           <Link classNameName="link js-scroll-trigger" to="/contacts">Contacts</Link>
@@ -53,4 +44,4 @@ const NavBar2 = (prop) => {
     )
 }
 
-export default NavBar2;
+export default NBprivacy;

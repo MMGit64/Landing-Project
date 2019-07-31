@@ -2,7 +2,7 @@ import React from 'react';
 
 export const JigSaw = (prop) => {
     return(
-    <div className="JigSaw container-fluid p-0">
+    <div className="JigSaw container-fluid p-0" id="features">
       {prop.order === 1 && 
         <div className="row no-gutters">
             <div className="col-lg-6 order-lg-1 text-white showcase-img" style={{backgroundImage: `url('${prop.img}')`}}></div>

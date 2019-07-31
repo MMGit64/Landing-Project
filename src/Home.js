@@ -20,7 +20,7 @@ const Home = () => {
       
       <Features img="img/Features.jpg"/>
 
-      <TestimonialGroup/>
+      <TestimonialGroup image="img/Testimonials.jpg"/>
 
       <Jumbotron2 img="img/dice.jpg"/>
 

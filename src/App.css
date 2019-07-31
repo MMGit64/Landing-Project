@@ -55,13 +55,6 @@
 #mainNav .logo:hover, #mainNav .logo:focus {
   color: blue;
 }
-  
-
-.Hero{
-  height: 150%;
-  border-radius: 100%;
-  margin-bottom: 0;
-}
 .Jumbotron{
   margin-top:90px;
   margin-bottom:0;
@@ -137,7 +130,7 @@ section.features .feature-item .icon {
 .Testimonials{
   padding-top:7rem;
   padding-bottom:7rem;
-  background:url(./img/Testimonials.jpg) no-repeat center center;
+  background: no-repeat center center;
   background-size: cover;
 }
 .Testimonials h2{
@@ -164,10 +157,27 @@ section.features .feature-item .icon {
 }
 .Testimonials .testimonial-item img{
   max-width:12rem;
+  width: 150px;
  /* -webkit-box-shadow:0 5px 5px 0 #adb5bd;
   box-shadow:0 5px 5px 0 #adb5bd;*/
 }
-
+.Testimonials .testimonial-item .title{
+  color:white;
+  -webkit-text-stroke-width:0.5px; 
+  -webkit-text-stroke-color:black;
+  font-size: 20pt;
+}
+.Testimonials .testimonial-item .caption{
+  color:black;
+  -webkit-text-stroke-width:1.0px; 
+  -webkit-text-stroke-color:white;
+  font-size: 15pt;
+}
+.Testimonials .row{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
 
 /*.Info i:hover{
   font-size:7rem;
@@ -237,11 +247,11 @@ section.Jumbotron2 .overlay {
   display: flex;
   width:500%;
   justify-content: flex-start;
-  background-color:navy;
   background-size:cover;
   background: no-repeat;
   padding-top: 7rem;
   padding-bottom: 7rem;
+  margin-bottom:0;
 }
 .References .text{
   color:white;
@@ -268,7 +278,7 @@ section.Jumbotron2 .overlay {
   padding-left:100px;
 }
 .References .ref-links .images{
-  padding-left:200px;
+  padding-left:20px;
 }
                                         /*About*/                   
 .JigSaw .showcase-img{
@@ -283,4 +293,17 @@ section.Jumbotron2 .overlay {
 }
 .JigSaw .showcase-text p{
   font-size:17pt;
+}
+
+
+                                      /*Private Policy*/
+.policypage {
+  margin-top:90px;
+  margin-bottom:0;
+  padding: 50px 0 10px 0;
+  background-size:100% 100%;
+}
+.policypage .page{
+  font:10pt;
+  color:white;
 }

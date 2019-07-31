@@ -27,13 +27,10 @@ const NavBar2 = (prop) => {
       <div className="nav-item">
       <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#register">Register</a>
+            <a className="nav-link js-scroll-trigger" href="#">Top</a>
           </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#features">Features</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#testimonial">Testimonials</a>
           </li>         
            <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
