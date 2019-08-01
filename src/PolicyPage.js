@@ -6,6 +6,8 @@ const PolicyPage = (prop) => {
       <div className="policypage" style={{backgroundImage: `url('${prop.img}')`}}>
         <div className="container ">
             <div className="page">
+                <h2>Privacy Policy</h2>
+
                 <h6>What personal information do we collect from the people that visit our blog, website or app?</h6>
                 <p>When ordering or registering on our site, as appropriate, you may be asked to enter your name, company name, email address, mailing address, credit card information, payment and billing information, country location etc. to enable us to offer and fulfill the services you request and help you with your experience.</p>
                 

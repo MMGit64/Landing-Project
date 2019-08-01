@@ -11,7 +11,7 @@ const Jumbotron2 = (prop) => {
     <section className="Jumbotron2" style={{backgroundImage:`url('${prop.img}')`}}>
       <div className="content">
         <div className="container">
-          <h2>Ready to dive in? <br/>Register now!</h2>
+          <h2 className="heading">Ready to dive in? <br/>Register now!</h2>
           <div className="form-row align-items-center">
             <div className="col"> 
               <Button href="#contact" clickFunction={registerUser} className="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</Button>

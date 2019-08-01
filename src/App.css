@@ -14,6 +14,17 @@
   letter-spacing: 1px;
 }
 
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: #212529; */
+  text-align: left;
+  background-color: #fff;
+}
+
 .navbar .logo {
   color: white;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -52,7 +63,7 @@
 #mainNav .navbar-nav > li > a:focus:hover {     /*'focus' hover color of menu shrunk page*/
   color: aqua;
 }
-#mainNav .logo:hover, #mainNav .logo:focus {
+.navbar .logo:hover, #mainNav .logo:focus {
   color: blue;
 }
 .Jumbotron{
@@ -207,8 +218,8 @@ section.Jumbotron2 {
   background-position: center;
   background-size: cover;
   padding-bottom: 7rem;
+  
 }
-
 section.Jumbotron2 .content {
   position: relative;
   z-index: 1;
@@ -236,12 +247,6 @@ section.Jumbotron2 .overlay {
   height: 100%;
 }
 
-
-#color-changer{
-  background-color: black;
-  background-size:cover;
-  background:no-repeat;
-}
 
 .References .ref-links{
   display: flex;
@@ -296,14 +301,57 @@ section.Jumbotron2 .overlay {
 }
 
 
-                                      /*Private Policy*/
+                                      /*References Bar*/
 .policypage {
-  margin-top:90px;
+  margin-top:10px;
   margin-bottom:0;
   padding: 50px 0 10px 0;
   background-size:100% 100%;
 }
 .policypage .page{
+  font:10pt;
+  color:white;
+}
+.policypage .page h2{
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font:10pt;
+  color:white;
+}
+
+.termspage {
+  margin-top:90px;
+  margin-bottom:0;
+  padding: 50px 0 10px 0;
+  background-size:100% 100%;
+}
+.termspage .page{
+  font:10pt;
+  color:white;
+}
+.termspage .page h2{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font:10pt;
+  color:white;
+}
+.termspage .page .subtitle{
+  padding-bottom: 30px;
+}
+
+.faqpage {
+  margin-top:90px;
+  margin-bottom:0;
+  padding: 50px 0 10px 0;
+  background-size:100% 100%;
+}
+.faqpage .page{
+  font:10pt;
+  color:white;
+}
+.faqpage .page h2{
+  padding-top: 100px;
+  padding-bottom: 30px;
   font:10pt;
   color:white;
 }

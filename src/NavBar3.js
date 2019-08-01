@@ -1,19 +1,17 @@
-import React,{useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import Button from './Button';
+import SignUpButton from './SignUpButton';
+import LogOutButton from './LogOutButton';
 
 
 const NavBar2 = (prop) => {
 
-    const [register, setRegistered] = useState(false);
-    const registerUser = () => {
-      setRegistered(true); 
-    }
-
-    return(
+  const loggedIn = localStorage.getItem('userToken');
+    
+  return(
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style={{backgroundImage: `url('${prop.image}')`}} >
 <div className="container">
-<h2 href="#page-top" classNameName="logo js-scroll-trigger">
+<h2 href="#page-top" classNameName="logo js-scroll-trigger" style={{color:'white'}}>
             <img src={"img/HeroImage3.jpg"} width="105" height ="75"/>
             <img src={"img/HeroImage.gif"} width="105" height ="75"/>
             <img src={"img/HeroImage2.jpg"} width="105" height ="75"/>
@@ -39,10 +37,10 @@ const NavBar2 = (prop) => {
           <Link  classNameName="link js-scroll-trigger" to="/">Home</Link>
           <Link classNameName="link js-scroll-trigger" to="/about">About</Link>
           <Link classNameName="link js-scroll-trigger" to="/contacts">Contacts</Link>
-          <Button clickFunction={registerUser} classNameName="button">Sign in</Button>
+          { !loggedIn &&<SignUpButton>Sign Up</SignUpButton> }
+          { !loggedIn && <LogOutButton className ="btn btn-primary link">Log Out</LogOutButton>}
+          {}
       </div>
-      <br/>
-          {register && <div style={{color:'blue'}}classNameName="alert alert-succes js-scroll-trigger">Successfully Signed In! Welcome Back!</div>}
     </div>
   </div>
 </div>

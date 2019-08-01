@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import NavBar3 from './NavBar3';
 import JigSaw from './JigSaw';
 import References from './References';
 import Information from './Information';
+import RegisterLogin from './RegisterLogin';
+import { AppContext } from './App';
 
 const About = () => {
+
+    const [state, setState] = useContext(AppContext)
+
     return(
         <div className="About">
             <NavBar3 image="img/gameCode.gif"/>
@@ -29,7 +34,8 @@ const About = () => {
             img='img/board-games.jpeg' 
             caption="Register for a profile and play right away! No gimmicks, no jokes, just play..." 
             title="Free Registration"/>
-            <References image="img/References.jpg"/>    
+            <References image="img/References.jpg"/>
+            {state.signUpForm && <RegisterLogin />}
         </div>
     )
 }

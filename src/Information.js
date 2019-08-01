@@ -7,7 +7,8 @@ const Information = (prop) => {
         <div className="container h-100">
             <div className="row h-100">
                 <div className="col-xl-7 mx-auto">
-                  <h1>At Free World Games, founded 2019</h1>
+                  <h1>Founded in 2019, Free World Gaming is the largest online gaming platform.
+                  <br/><br/>Check out our primary features below!</h1>
                 </div>
             </div>
         </div>
