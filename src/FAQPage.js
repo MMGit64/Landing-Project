@@ -21,32 +21,30 @@ const FAQPage = (prop) => {
                 <p>There are various online gaming special features that would come at a charge.</p>
                 
                 <h6>Are there any games restricted based on age?</h6>
-                <p>There are games certified for specific ages and above.
+                <p>There are games certified for specific ages and above.</p>
                     <ul>
                         <li>U: Suitable for everyone</li>
                         <li>PG-13: Parental guidance for ages under 13</li>
                         <li>16: Unsuitable for ages under 16</li>
                         <li>18: Suitable only for Adults</li>
                     </ul>
-                </p>
+                
 
                 <h6>How do you monitor what game is suitable for users?</h6>
                 <p>Verification for date of birth will be required prior to playing a game(excluding U-rated games) in the form of ID that must be scanned and emailed to fwp19@info.com</p>
                 
                 <h6>What makes Free World Gaming different from other online gaming platforms?</h6>
-                <p>
+        
                     <ol>
                         <li>You can compete against anyone from around the globe and take on the most experienced gamers</li>
                         <li>Free World Gaming takes into account of the popularity of the games based that of the users. <br/>The more popular the games, the more options made available of the same genre.</li>
                         <li>As your popularity increases, you are more likely to gain followers and increase your profile across social media networks.<br/> A prominent profile could prompt special invitations to various game events i.e. E3</li>
                     </ol>
-                </p>
+                
                 
                 <h6>What if I am not interested in gaining followers or spreading my profile across social media.</h6>
                 <p> You may choose whether to publicly display your game records on your account, selecting either public or private on your account settings.<br/> Choosing private will keep all your records hidden from the rest of the community.</p>
                 
-                <h6></h6>
-                <p></p>
             </div>
         </div>
       </div>
