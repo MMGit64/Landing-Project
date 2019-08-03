@@ -37,6 +37,7 @@ const NavBar2 = (prop) => {
           <Link  classNameName="link js-scroll-trigger" to="/">Home</Link>
           <Link classNameName="link js-scroll-trigger" to="/about">About</Link>
           <Link classNameName="link js-scroll-trigger" to="/contacts">Contacts</Link>
+          <Link className="link" to="/feeds">Feeds</Link>
           { !loggedIn &&<SignUpButton>Sign Up</SignUpButton> }
           { !loggedIn && <LogOutButton className ="btn btn-primary link">Log Out</LogOutButton>}
           {}

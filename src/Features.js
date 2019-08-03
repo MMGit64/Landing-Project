@@ -6,7 +6,7 @@ const Features = (prop) => {
     <section className="features" id="features" style={{backgroundImage: `url('${prop.img}')`}}>
     <div className="container">
       <div className="section-heading text-center">
-        <h2 classname="head">Accomodating As Many Users As Possible</h2>
+        <h2 className="head">Accomodating As Many Users As Possible</h2>
         <p className="headline">Check out the list of features below!</p>
         <hr/>
       </div>

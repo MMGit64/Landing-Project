@@ -10,7 +10,7 @@ const NavBar2 = (prop) => {
     return(
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style={{backgroundImage: `url('${prop.image}')`}} >
 <div className="container">
-<h2 href="#page-top" classNameName="logo js-scroll-trigger" style={{color:'white'}}>
+<h2 href="#page-top" className="logo js-scroll-trigger" style={{color:'white'}}>
             <img src={"img/HeroImage3.jpg"} width="105" height ="75"/>
             <img src={"img/HeroImage.gif"} width="105" height ="75"/>
             <img src={"img/HeroImage2.jpg"} width="105" height ="75"/>
@@ -39,6 +39,7 @@ const NavBar2 = (prop) => {
           <Link  className="link js-scroll-trigger" to="/">Home</Link>
           <Link className="link js-scroll-trigger" to="/about">About</Link>
           <Link className="link js-scroll-trigger" to="/contacts">Contacts</Link>
+          <Link className="link" to="/feeds">Feeds</Link>
           { !loggedIn &&<SignUpButton>Sign Up</SignUpButton> }
           { !loggedIn && <LogOutButton className ="btn btn-primary link">Log Out</LogOutButton>}
       </div>

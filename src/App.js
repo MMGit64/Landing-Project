@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './Home';
 import About from'./About';
 import Contacts from './Contacts';
+import Feeds from './Feeds';
 import PrivacyPolicy from './PrivacyPolicy';
 import TermsOfuse from './TermsOfUse';
 import FAQ from './FAQ';
@@ -23,6 +24,7 @@ const App = () => {
                     <Route path="/" exact component={Home}/>            
                     <Route path="/about" component={About}/>
                     <Route path="/contacts" component={Contacts}/>
+                    <Route path="/feeds" component={Feeds} />
                     <Route path="/privacypolicy" component={PrivacyPolicy}/>
                     <Route path="/termsofuse" component={TermsOfuse}/>
                     <Route path="/faq" component={FAQ}/>
